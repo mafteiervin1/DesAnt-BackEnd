@@ -32,7 +32,7 @@ public class TheRealOne {
         //HtmlCheck h=new HtmlCheck(FF);
         //System.out.println(a.getFilesNumber(F));
         Document dd;
-        dd = Jsoup.parse(d.toString());
+        //dd = Jsoup.parse(d.toString());
         File testpath=new File("F:\\Facultate\\TW\\Proiect\\1\\test"); 
         File patternspath=new File("F:\\Facultate\\TW\\Proiect\\1\\patterns");
         OpenFolder testFolder=new OpenFolder(testpath);
